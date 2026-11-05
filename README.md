@@ -19,8 +19,8 @@
 </p>
 
 <p align="center">
-  <a href="#-cose">Cos'è</a> |
-  <a href="#️-leggi-prima-di-tutto">Leggi prima</a> |
+  <a href="#-cosè">Cos'è</a> |
+  <a href="#-leggi-prima-di-tutto">Leggi prima</a> |
   <a href="#-cosa-disabilita">Cosa disabilita</a> |
   <a href="#-come-si-usa">Come si usa</a> |
   <a href="#-il-riavvio-tasto-f3">Il riavvio (F3)</a> |
@@ -67,7 +67,7 @@ Lo script lavora in 5 passi:
 
 # 🎮 Come si usa
 
-1. Scarica `disabilita-vbs-virtualbox.bat`.
+1. Scarica `disabilita-vbs-per-virtualbox.bat`.
 2. **Tasto destro → Esegui come amministratore.**
 3. Lascialo lavorare: è automatico, non devi premere invio. Dopo ~8 secondi riavvia da solo.
 4. **Al riavvio premi F3** alla schermata di conferma ([vedi sotto](#-il-riavvio-tasto-f3)).
@@ -136,7 +136,7 @@ Non affiliato a Microsoft od Oracle. VirtualBox è un marchio di Oracle; Windows
 This script **deliberately lowers your PC's security**. Use it only on a **personal** machine, never on a work/managed PC. If **BitLocker** is on, it may ask for your recovery key at reboot — have it ready. **WSL2, Docker and Sandbox won't start** afterwards until you re-enable everything. Needs **administrator**. Use at your own risk; tested on Windows 11 24H2.
 
 ### 🎮 How to use
-1. Right-click `disabilita-vbs-virtualbox.bat` → **Run as administrator**.
+1. Right-click `disabilita-vbs-per-virtualbox.bat` → **Run as administrator**.
 2. It runs unattended and reboots itself after ~8 seconds.
 3. **At reboot, press F3** at the confirmation screen (the *Credential Guard Opt-out Tool*): **F3** or the **Windows key** to confirm, **ESC** to skip. This manual key press is a Microsoft safety measure and **cannot be automated** — you must press it physically.
 4. Open VirtualBox — it now runs at full speed. ✅
